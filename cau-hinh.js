@@ -3,13 +3,13 @@
 // Để trống thì web vẫn chạy ở chế độ khách (không có đăng nhập Google, không có AI).
 window.CAU_HINH = {
   firebase: {
-    apiKey: "",
-    authDomain: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: ""
-  },
+  apiKey: "AIzaSyBu9HSPgOc9qq-_Yov7_DcSAzwJ5BT3Uqs",
+  authDomain: "zestenglish-3eff9.firebaseapp.com",
+  projectId: "zestenglish-3eff9",
+  storageBucket: "zestenglish-3eff9.firebasestorage.app",
+  messagingSenderId: "973785422669",
+  appId: "1:973785422669:web:ef2aaa5b4f96348d7e3504",
+},
   appCheck: {
     // Khóa reCAPTCHA Enterprise (bước 4 trong hướng dẫn). Firebase AI Logic tự bật App Check,
     // nên thiếu khóa này thì đăng nhập và lưu tiến độ vẫn chạy nhưng AI bị chặn.
